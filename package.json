@@ -1,7 +1,12 @@
 {
-  "name": "hardhat-project",
+  "name": "inheritance-contract",
+  "scripts": {
+    "deploy": "hardhat run --network goerli scripts/deploy.js",
+    "test": "hardhat test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.18.3"
   }
 }
